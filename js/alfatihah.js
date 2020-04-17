@@ -10,7 +10,6 @@ $(".tafsir").on("click", function() {
 $(".copy").on("click", function() {
     $(".pop-up").fadeIn();
 });
-
 $(".close,.pop-up").on("click", function(e) {
     e.preventDefault();
     $(".pop-up").fadeOut();
