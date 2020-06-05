@@ -12,7 +12,9 @@ $(".back").on("click", function() {
 
 $(".left").on("click", function() {
     $(".left-dropdown").slideToggle()
-
+    $(".left-2,.istarad").css({ position: 'absolute' }).animate({
+        "top": "160px"
+    })
 })
 
 $(".copy").on("click", function() {
@@ -30,11 +32,7 @@ $(".share").on("click", function() {
     $(".after-share").slideToggle();
 });
 
-$("body").on("click", function() {
-
+$(".main-body").on("click", function(e) {
+    e.stopPropagation();
     $(".topOfThePageContainer").slideToggle();
 });
-
-$("big-cont").on("click", function() {
-
-})
