@@ -2,9 +2,17 @@ $(".sign").on("click", function() {
     $(".container").slideToggle();
 })
 $(".tafsir").on("click", function() {
-    $(".after-tafsir").animate({
-        width: "toggle"
-    })
+    $(".after-tafsir").toggle("slide")
+})
+
+$(".back").on("click", function() {
+    $(".after-tafsir").toggle("slide")
+
+})
+
+$(".left").on("click", function() {
+    $(".left-dropdown").slideToggle()
+
 })
 
 $(".copy").on("click", function() {
