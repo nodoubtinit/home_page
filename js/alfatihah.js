@@ -29,26 +29,12 @@ $(".pop-up .inner").on("click", function(e) {
 $(".share").on("click", function() {
     $(".after-share").slideToggle();
 });
-$("body").on("click",function(e){
-    e.stopPropagation();
+
+$("body").on("click", function() {
+
     $(".topOfThePageContainer").slideToggle();
 });
 
-$(".tafsir").on("click", function() {
-    $(".after-tafsir").toggle("slide")
-} , 1000 , function(){
-    $(".ayah").animate({
-        position : "absolute", 
-        top : "100px"
-    });
-});
-
-
-
-
-
-
-$(".back").on("click", function() {
-    $(".after-tafsir").toggle("slide")
+$("big-cont").on("click", function() {
 
 })
