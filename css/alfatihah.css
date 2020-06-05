@@ -288,6 +288,8 @@ body {
     border: 1px solid white;
     border-bottom: none;
     border-left: none;
+    display: none;
+
 }
 
 .after-share h4 {
@@ -345,4 +347,41 @@ body {
     border-top: 3px solid #bbb;
     width: 60px;
     border-radius: 20px;
+}
+.topOfThePageContainer{
+    height:70px;
+    width: 100%;
+    position: relative;
+    top: -15px;
+    background-color: white;
+    opacity: 0.3;
+    display: none;
+}
+.e1{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    right:50px;
+    top: -5px;
+    font-weight: bold;
+
+}
+.e3{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    right:50%;
+    top: -5px;
+    font-weight: bold;
+}
+ .e4{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left:25%;
+    top: -5px;
+    font-weight: bold;
 }
