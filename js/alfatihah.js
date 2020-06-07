@@ -36,3 +36,26 @@ $(".main-body").on("click", function(e) {
     e.stopPropagation();
     $(".topOfThePageContainer").slideToggle();
 });
+
+
+
+$(".text-notice").on("click", function() {
+    $(".notice-popup").fadeIn();
+});
+$(".notice-close,.notice-popup").on("click", function(e) {
+    e.preventDefault();
+    $(".notice-popup").fadeOut();
+});
+
+$(".notice-popup .notice-popup-inner").on("click", function(e) {
+    e.stopPropagation();
+});
+
+
+$(".text-save").on("click" , function(){
+    $(".done-save").fadeIn();
+});
+
+$("body").on("click" , function(){
+    $(".done-save").fadeOut();
+});
