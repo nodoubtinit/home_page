@@ -12,9 +12,17 @@ $(".back").on("click", function() {
 
 $(".left").on("click", function() {
     $(".left-dropdown").slideToggle()
-    $(".left-2,.istarad").css({ position: 'absolute' }).animate({
-        "top": "160px"
-    })
+
+    $(".left-2,.istarad").toggleClass("changed_position")
+
+
+})
+$(".left-2").on("click", function() {
+    $(".left2-dropdown").slideToggle()
+
+    $(".istarad").toggleClass("changed_position2")
+
+
 })
 
 $(".copy").on("click", function() {
