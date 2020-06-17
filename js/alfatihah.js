@@ -13,9 +13,9 @@ $(".back").on("click", function() {
 $(".left").on("click", function() {
     $(".left-dropdown").slideToggle()
 
-    $(".left-2,.istarad").toggleClass("changed_position")
-
-
+    $(".left-2").toggleClass("changed_position")
+    $(".main-text2").toggleClass("ayah_position")
+    $(".istarad").toggleClass("changed_position3")
 })
 $(".left-2").on("click", function() {
     $(".left2-dropdown").slideToggle()
@@ -60,10 +60,10 @@ $(".notice-popup .notice-popup-inner").on("click", function(e) {
 });
 
 
-$(".text-save").on("click" , function(){
+$(".text-save").on("click", function() {
     $(".done-save").fadeIn();
 });
 
-$("body").on("click" , function(){
+$("body").on("click", function() {
     $(".done-save").fadeOut();
 });
