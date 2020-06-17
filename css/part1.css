@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../prototype/quran_intro.png");
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.top {
+    display: flex;
+    border-bottom: 1px solid #707070;
+}
+
+.rounded {
+    position: relative;
+    top: 40px;
+    width: 98%;
+    background-color: white;
+    height: .2px;
+    border-radius: 20px;
+}
+
+.top .logo {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 0;
+}
+
+.top .text a {
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+
+.text {
+    margin: 15px;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+.main-text {
+    font-family: sans-serif;
+    position: relative;
+    margin-top: 200px;
+}
+
+.p1 {
+    margin-left: 15px;
+    margin-bottom: 3px;
+    font-size: 6vh;
+}
+
+.p2 {
+    margin-left: 15px;
+    margin-top: 3px;
+    font-size: 4vh;
+    font-style: unset;
+    color: #9C9C9C;
+}
+
+.main-btn {
+    color: #D1D1D1;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: 1px solid #707070;
+    background-color: transparent;
+    font-size: 3vh;
+}
