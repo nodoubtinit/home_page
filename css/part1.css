@@ -15,21 +15,78 @@ body {
     border-bottom: 1px solid #707070;
 }
 
-.rounded {
-    position: relative;
-    top: 40px;
+.rounded-hr {
+    position: absolute;
+    top: 50px;
     width: 98%;
     background-color: white;
     height: .2px;
     border-radius: 20px;
+    transition: top .8s linear;
 }
 
 .top .logo {
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    top: -35px;
     position: absolute;
     left: 0;
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+.humborger-btn {
+    position: absolute;
+    right: 12px;
+}
+
+.img {
+    position: relative;
+    left: 10px;
+}
+
+.humborger-div {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+.rounded-after {
+    top: 150px;
+}
+
+@media screen and (max-width:450px) {
+    .text {
+        display: none
+    }
+    .profile {
+        display: none;
+    }
+    .humborger-div {
+        display: block;
+    }
+    body {
+        background-position: right;
+    }
+}
+
+.drop-ul {
+    list-style: none;
+}
+
+.drop-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow {
+    position: relative;
+    top: 220px;
+    left: 15px;
 }
 
 .top .text a {
