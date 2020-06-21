@@ -1,18 +1,19 @@
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 .khaled{
     position: relative;
-    left: 40%;
+    left: 30%;
 }
 
                 /* part of No Doubt In It */
 .no_doubt_in_it{
     height: 400px;
-    width: 75%;
+    width: 65%;
     position: relative;
     top: 100px;
-    left: 250px;
+    left: 160px;
 }
 
 
@@ -23,7 +24,7 @@ body{
     font-weight: bold;
     font-size: 80px;
     position: relative;
-    left: 100px;
+    left: 0px;
 }
 .svg1{
     position: relative;
@@ -123,7 +124,7 @@ body{
     color: white;
     font-size: 70px;
     position: relative;
-    left: 10px;
+    left: 0px;
 }
 
 .text_inside_for_developers{
@@ -131,7 +132,7 @@ body{
     color: gray;
     line-height: 50px;
     position: relative;
-    left: 10px;
+    left: 60px;
 }
 
                         /* Keep this project alive */
@@ -144,7 +145,7 @@ body{
     color: white;
     font-size: 70px;
     position: relative;
-    left: 10px;
+    left: 0px;
 }
 
 .text_inside_keep_this_project_alive{
@@ -152,7 +153,7 @@ body{
     color: gray;
     line-height: 50px;
     position: relative;
-    left: 10px;
+    left: 60px;
 }
 
             /* Part Of Patreon Us */
@@ -161,29 +162,30 @@ body{
     height: 100px;
     width: 300px;
     position: relative;
-    left: 40%;
+    left: 17%;
     top: 100px;
 }
 
 @media screen and (max-width:700px) {
  .khaled{
     position: relative;
-    left: 40%;
     }   
 
                 /* part of No Doubt In It */
 .no_doubt_in_it{
     height: 150px;
-    width: 75%;
+    width: 65%;
     position: relative;
     top: 50px;
-    left: 80px;
+    left: 135px;
 }
 
                 /* part of features */
 
     .svg1{
         height: 55px;
+        position: relative;
+        left: 10px;
     }
     .features{
         color: white;
@@ -280,6 +282,8 @@ body{
         /* For developers Part*/
 .svg2{
     height: 55px;
+    position: relative;
+    left: 10px;
     }       
 .for_developers_text{
     color: white;
@@ -294,13 +298,15 @@ body{
     color: gray;
     line-height: 20px;
     position: relative;
-    left: 10px;
+    left: 60px;
 }
 
                     /*Keep this project alive part*/
 
 .svg3{
    height: 55px;
+   position: relative;
+    left: 10px;
     }
 
 .keep_this_project_alive_text{
@@ -316,7 +322,7 @@ body{
     color: gray;
     line-height: 20px;
     position: relative;
-    left: 10px;
+    left: 60px;
 }
 
                 /* Part Of Patreon Us */
