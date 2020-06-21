@@ -1,6 +1,10 @@
 body{
     background-color: black;
 }
+.khaled{
+    position: relative;
+    left: 40%;
+}
 
                 /* part of No Doubt In It */
 .no_doubt_in_it{
@@ -162,6 +166,10 @@ body{
 }
 
 @media screen and (max-width:700px) {
+ .khaled{
+    position: relative;
+    left: 40%;
+    }   
 
                 /* part of No Doubt In It */
 .no_doubt_in_it{
