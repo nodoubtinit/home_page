@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="81" viewBox="0 0 77 81">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="77" height="81" transform="translate(137 5867)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-137 -5867)" clip-path="url(#clip-path)">
+    <g id="instagram" transform="translate(137 5803.398)">
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="3.008" cy="3.008" r="3.008" transform="translate(46.32 89.427)" fill="#fff"/>
+      <path id="Path_8" data-name="Path 8" d="M19.429,9.8a9.625,9.625,0,1,0,9.625,9.625A9.625,9.625,0,0,0,19.429,9.8Zm0,14.437a4.812,4.812,0,1,1,4.812-4.812A4.812,4.812,0,0,1,19.429,24.241Z" transform="translate(19.071 83.834)" fill="#fff"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="38.5" height="38.5" rx="2.451" transform="translate(19.25 84.013)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.634"/>
+    </g>
+  </g>
+</svg>

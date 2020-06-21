@@ -3,11 +3,15 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+}
+
+.main {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../prototype/quran_intro.png");
     background-attachment: fixed;
     background-position: center center;
+    height: 600px;
 }
 
 .top {
@@ -43,11 +47,6 @@ body {
     right: 12px;
 }
 
-.img {
-    position: relative;
-    left: 10px;
-}
-
 .humborger-div {
     display: none;
     position: absolute;
@@ -56,10 +55,10 @@ body {
 }
 
 .rounded-after {
-    top: 150px;
+    top: 170px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     .text {
         display: none
     }
@@ -76,16 +75,21 @@ body {
 
 .drop-ul {
     list-style: none;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .drop-ul li a {
     text-decoration: none;
     color: white;
+    position: relative;
+    right: 12px;
+    top: 10px;
 }
 
 .arrow {
     position: relative;
-    top: 220px;
+    top: 140px;
     left: 15px;
 }
 
@@ -107,13 +111,13 @@ body {
     height: 30px;
     position: absolute;
     right: 0;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .main-text {
     font-family: sans-serif;
     position: relative;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 .p1 {
@@ -138,4 +142,18 @@ body {
     border: 1px solid #707070;
     background-color: transparent;
     font-size: 3vh;
+    position: relative;
+    top: 30px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #D2D2D2;
+}
+
+.footer-text svg {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 10px;
 }
