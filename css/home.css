@@ -1,0 +1,218 @@
+.main{
+    font-family: 'Open Sans', serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../prototype/quran_intro.png");
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+.top {
+    display: flex;
+    border-bottom: 1px solid #707070;
+}
+
+.rounded-hr {
+    position: absolute;
+    top: 50px;
+    width: 98%;
+    background-color: white;
+    height: .2px;
+    border-radius: 20px;
+    transition: top .8s linear;
+}
+
+.top .logo {
+    top: -35px;
+    position: absolute;
+    left: 0;
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+.humborger-btn {
+    position: absolute;
+    right: 12px;
+}
+
+.img {
+    position: relative;
+    left: 10px;
+}
+
+.humborger-div {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+.rounded-after {
+    top: 150px;
+}
+
+@media screen and (max-width:450px) {
+    .text {
+        display: none
+    }
+    .profile {
+        display: none;
+    }
+    .humborger-div {
+        display: block;
+    }
+    body {
+        background-position: right;
+    }
+}
+
+.drop-ul {
+    list-style: none;
+}
+
+.drop-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow {
+    position: relative;
+    top: 220px;
+    left: 15px;
+}
+
+.top .text a {
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+
+.text {
+    margin: 15px;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+.main-text {
+    font-family: sans-serif;
+    position: relative;
+    margin-top: 200px;
+}
+
+.p1 {
+    margin-left: 15px;
+    margin-bottom: 3px;
+    font-size: 6vh;
+}
+
+.p2 {
+    margin-left: 15px;
+    margin-top: 3px;
+    font-size: 4vh;
+    font-style: unset;
+    color: #9C9C9C;
+}
+
+.main-btn {
+    color: #D1D1D1;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: 1px solid #707070;
+    background-color: transparent;
+    font-size: 3vh;
+}
+
+
+
+            /* CODES FOR KHALED */
+
+            .main2{
+                background-color: black;
+            }
+            
+                /* part of "Get Explanations "*/
+            .search_for_ayat{
+                display: flex;
+            }
+            .search_for_ayat_img{
+                height: 400px;
+                width: 550px;
+            
+            }
+            .search_for_ayat_text{
+                color: white;
+                font-size: 70px;
+                position: relative;
+                left: 100px;
+            }
+            
+                /* part of "Get Explanations "*/
+            
+            .get_Explanations{
+                display: flex;
+            }
+            .get_Explanations_Text{
+                color: white;
+                font-size: 70px;
+                position: relative;
+                left: 100px;
+            }
+            .get_Explanations_Img{
+                height: 400px;
+                width: 550px;
+                
+            }
+            
+                    /* part of "translations"*/
+            .transolations{
+                display: flex;
+            }
+            .transolationsText{
+                color: white;
+                font-size: 70px;
+                position: relative;
+                left: 100px;
+                
+            }
+            .transolationsImg{
+                height: 400px;
+                width: 550px;
+            } 
+            
+            
+                    /* part of "transolations"*/
+            
+            .listen{
+                display: flex;
+            }        
+            
+            .listenText{
+                color: white;
+                font-size: 70px;
+                position: relative;
+                left:100px;
+                
+            }
+            .listenImg{
+                height: 400px;
+                width: 550px;
+            }            
