@@ -1,0 +1,337 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.khaled{
+    position: relative;
+    left: 30%;
+}
+
+                /* part of No Doubt In It */
+.no_doubt_in_it{
+    height: 400px;
+    width: 65%;
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+
+
+
+                 /* part of features */
+.features{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    position: relative;
+    left: 0px;
+}
+.svg1{
+    position: relative;
+    top: 15px;
+}
+
+    /* part of "search for ayat "*/
+.search_for_ayat{
+    display: flex;
+}
+.search_for_ayat_img{
+    height: 400px;
+    width: 550px;
+}
+.search_for_ayat_text{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 100px;
+}
+
+    /* part of "Get Explanations "*/
+
+.get_Explanations{
+    display: flex;
+}
+.get_Explanations_Text{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 100px;
+}
+.get_Explanations_Img{
+    height: 400px;
+    width: 550px;
+    
+}
+
+        /* part of "Arabic Grammar"*/
+.arabic_grammar{
+    display: flex;
+}
+.arabic_grammar_Text{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 100px;
+    
+}
+.arabic_grammar_Img{
+    height: 400px;
+    width: 550px;
+}
+
+        /* part of "translations"*/
+.transolations{
+    display: flex;
+}
+.transolationsText{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 100px;
+    
+}
+.transolationsImg{
+    height: 400px;
+    width: 550px;
+} 
+
+
+        /* part of "transolations"*/
+
+.listen{
+    display: flex;
+}        
+
+.listenText{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left:100px;
+    
+}
+.listenImg{
+    height: 400px;
+    width: 550px;
+}
+
+                    /* For developers Part*/
+.svg2{
+    position: relative;
+    top: 15px;
+}
+
+.for_developers_text{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 0px;
+}
+
+.text_inside_for_developers{
+    font-size: 30px;
+    color: gray;
+    line-height: 50px;
+    position: relative;
+    left: 60px;
+}
+
+                        /* Keep this project alive */
+.svg3{
+    position: relative;
+    top: 15px;
+                        }                    
+
+    .keep_this_project_alive_text{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    left: 0px;
+}
+
+.text_inside_keep_this_project_alive{
+    font-size: 30px;
+    color: gray;
+    line-height: 50px;
+    position: relative;
+    left: 60px;
+}
+
+            /* Part Of Patreon Us */
+
+.patreon_us{
+    height: 100px;
+    width: 300px;
+    position: relative;
+    left: 17%;
+    top: 100px;
+}
+
+@media screen and (max-width:700px) {
+ .khaled{
+    position: relative;
+    }   
+
+                /* part of No Doubt In It */
+.no_doubt_in_it{
+    height: 150px;
+    width: 65%;
+    position: relative;
+    top: 50px;
+    left: 135px;
+}
+
+                /* part of features */
+
+    .svg1{
+        height: 55px;
+        position: relative;
+        left: 10px;
+    }
+    .features{
+        color: white;
+        font-weight: bold;
+        font-size: 33px;
+        position: relative;
+        left: 50px;
+    }
+                        /* part of "search for ayat"*/
+        .search_for_ayat{
+            display: flex;
+        }
+        .search_for_ayat_img{
+            height: 200px;
+            width: 275px;
+
+        }
+        .search_for_ayat_text{
+            color: white;
+            font-size: 23px;
+            position: relative;
+            left: 70px;
+        }
+                        /* part of "Get Explanations "*/
+
+.get_Explanations{
+    display: flex;
+}
+.get_Explanations_Text{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    left: 70px;
+}
+.get_Explanations_Img{
+    height: 200px;
+    width: 275px;
+    
+}
+
+        /* part of "translations"*/
+.transolations{
+    display: flex;
+}
+.transolationsText{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    left: 70px;
+    
+}
+.transolationsImg{
+    height: 200px;
+     width: 275px;
+} 
+
+                        /* part of "Arabic Grammar"*/
+.arabic_grammar{
+    display: flex;
+}
+.arabic_grammar_Text{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    left: 70px;
+    
+}
+.arabic_grammar_Img{
+    height: 200px;
+     width: 275px;
+} 
+
+
+
+
+        /* part of "transolations"*/
+
+.listen{
+    display: flex;
+}        
+
+.listenText{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    left:70px;
+    
+}
+.listenImg{
+    height: 200px;
+    width: 275px;
+}
+
+        /* For developers Part*/
+.svg2{
+    height: 55px;
+    position: relative;
+    left: 10px;
+    }       
+.for_developers_text{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+
+.text_inside_for_developers{
+    font-size: 15px;
+    color: gray;
+    line-height: 20px;
+    position: relative;
+    left: 60px;
+}
+
+                    /*Keep this project alive part*/
+
+.svg3{
+   height: 55px;
+   position: relative;
+    left: 10px;
+    }
+
+.keep_this_project_alive_text{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+
+.text_inside_keep_this_project_alive{
+    font-size: 15px;
+    color: gray;
+    line-height: 20px;
+    position: relative;
+    left: 60px;
+}
+
+                /* Part Of Patreon Us */
+.patreon_us{
+     height: 65px;
+     width: 200px;
+     position: relative;
+     left: 28%;
+     top: 50px;
+                }
+
+}
