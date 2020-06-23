@@ -1,0 +1,30 @@
+{
+  "name": "no-doubt-in-it",
+  "version": "1.0.0",
+  "description": "a quran project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://scicave@dev.azure.com/scicave/Quran%20app/_git/Quran%20app"
+  },
+  "keywords": [
+    "quran",
+    "nodoubtinit",
+    "holy_quran",
+    "noble_quran"
+  ],
+  "author": "scicave team",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0"
+  }
+}
